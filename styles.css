@@ -1,0 +1,185 @@
+/*styles to be applied to the whole body */
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-family: "Poppins", sans-serif;
+	color: #222;
+}
+
+.navButton:hover,
+.headerButton:hover,
+.courseButton:hover,
+.jumboButton:hover {
+	background: wheat;
+}
+
+/*styles for the header section*/
+
+header {
+	background: #f0fff0;
+}
+/*nav section design*/
+
+.navButton {
+	background: #21b573;
+	border-radius: 33px;
+	width: 104px;
+	height: 43px;
+	text-align: center;
+}
+.navRight li {
+	padding: 8px;
+	font-weight: bold;
+}
+
+/*main section of the header*/
+
+.headerButton {
+	background: #21b573;
+	border-radius: 33px;
+	width: 153px;
+	height: 43px;
+}
+
+.headerP1 {
+	color: #fd511a;
+}
+
+.headerP2 {
+	line-height: 36px;
+}
+
+.headerH1 {
+	font-weight: bold;
+	line-height: 70px;
+}
+.headerSpan {
+	color: #21b573;
+	line-height: 70px;
+}
+/*about section content design */
+
+/*jumbotron design */
+
+.jumboButton {
+	background: #21b573;
+	border-radius: 33px;
+	width: 153px;
+	height: 63px;
+}
+.jumbo p {
+	font-size: 1em;
+	line-height: 2em;
+}
+
+/*contents design */
+
+.content {
+	padding: 30px;
+}
+.content h4 {
+	margin-top: 15px;
+}
+
+.first {
+	background: #f8fffb;
+	border-radius: 10px;
+}
+.second {
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+.third {
+	background: #f8fffb;
+	border-radius: 10px;
+}
+.fourth {
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+/*courses section desing */
+
+.courseTitle {
+	text-align: center;
+	font-weight: bold;
+}
+
+.courseButton {
+	background: #21b573;
+	border-radius: 33px;
+	height: 43px;
+	margin: 8px 0;
+}
+
+/*testimonial section */
+
+.testimonial p {
+	margin: 0 40px;
+	line-height: 2em;
+}
+.testimonial h2 {
+	font-weight: bold;
+}
+
+/*Social media links */
+.social i {
+	padding: 10px;
+}
+
+.social h1 {
+	margin-bottom: 10px;
+}
+
+/*footer section css*/
+
+footer {
+	background: #282531;
+	color: #d5d5d5;
+	padding-top: 3rem;
+	margin-top: 5em;
+}
+footer h4,
+h5 {
+	font-weight: 900;
+}
+.footerRow {
+	margin-left: 30px;
+}
+footer p {
+	line-height: 2em;
+}
+
+.light-2 {
+	border-top: 1px solid #d5d5d5;
+	width: 100%;
+	margin-top: 0.8rem;
+	margin-bottom: 1rem;
+}
+
+.light {
+	border-top: 1px solid #d5d5d5;
+	width: 75%;
+	margin-top: 0.8rem;
+	margin-bottom: 1rem;
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 300px) {
+	.testimonial img {
+		height: 250px;
+	}
+	.testimonial p {
+		line-height: 1.4em;
+		height: 250px;
+		overflow-x: scroll;
+	}
+	.cardText {
+		margin-left: -80px;
+	}
+	.navImage {
+		height: 50px;
+	}
+}
